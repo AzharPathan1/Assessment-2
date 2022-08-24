@@ -1,0 +1,45 @@
+.form{
+    text-align: center;
+}
+.formdiv{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 30px;
+    background-color: bisque;
+}
+.home{
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.submit{
+    margin-left: 900px;
+}
+.img img{
+    width: 250px;
+    height: 250px;
+    padding: 70px;
+}
+.aboutUs{
+    text-align: center;
+}
+.aboutimg{
+    display: inline-block;
+}
+.aboutp{
+    display: inline-block;
+    width: 250px;
+    height: 235px;
+    padding: 5px;
+    position: relative;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .submit{
+       margin-left: 50px;
+    
+    }
+  }
